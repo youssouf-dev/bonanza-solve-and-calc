@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 76 113">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Union_11);
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_60);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff7cec"/>
+      <stop offset="1" stop-color="#ff48b0"/>
+    </linearGradient>
+    <filter id="Rectangle_60" x="0" y="0" width="76" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_11" x="3" y="3" width="20.653" height="20.652" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10" data-name="Group 10" transform="translate(-84 -134)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 84, 134)">
+      <rect id="Rectangle_60-2" data-name="Rectangle 60" class="cls-1" width="70" height="105" rx="6" transform="translate(1)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 84, 134)">
+      <path id="Union_11-2" data-name="Union 11" class="cls-2" d="M1006.106-1966.568v-4.884h-4.884a1.222,1.222,0,0,1-1.221-1.221,1.222,1.222,0,0,1,1.221-1.221h4.884v-4.883a1.22,1.22,0,0,1,1.22-1.221,1.221,1.221,0,0,1,1.221,1.221v4.883h4.884a1.222,1.222,0,0,1,1.221,1.221,1.222,1.222,0,0,1-1.221,1.221h-4.884v4.884a1.22,1.22,0,0,1-1.221,1.22A1.22,1.22,0,0,1,1006.106-1966.568Z" transform="translate(-994 1985)"/>
+    </g>
+  </g>
+</svg>

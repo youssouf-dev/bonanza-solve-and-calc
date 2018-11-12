@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 76 113">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_107);
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_106);
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_104);
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_60);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d9cd"/>
+      <stop offset="1" stop-color="#00b1e4"/>
+    </linearGradient>
+    <filter id="Rectangle_60" x="0" y="0" width="76" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_104" x="4" y="9" width="20" height="8.442" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_106" x="9" y="13.895" width="10.003" height="10" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_107" x="9" y="2.895" width="10.003" height="10" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(-84 -134)">
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 84, 134)">
+      <rect id="Rectangle_60-2" data-name="Rectangle 60" class="cls-1" width="70" height="105" rx="6" transform="translate(1)"/>
+    </g>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 84, 134)">
+      <rect id="Rectangle_104-2" data-name="Rectangle 104" class="cls-2" width="14" height="2.442" rx="1.221" transform="translate(21 13.44) rotate(180)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 84, 134)">
+      <rect id="Rectangle_106-2" data-name="Rectangle 106" class="cls-2" width="4" height="4.003" rx="2" transform="translate(16 15.89) rotate(90)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 84, 134)">
+      <rect id="Rectangle_107-2" data-name="Rectangle 107" class="cls-2" width="4" height="4.003" rx="2" transform="translate(16 4.89) rotate(90)"/>
+    </g>
+  </g>
+</svg>

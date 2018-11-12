@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 76 113">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Union_9);
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_44);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9988fc"/>
+      <stop offset="1" stop-color="#6a1ef8"/>
+    </linearGradient>
+    <filter id="Rectangle_44" x="0" y="0" width="76" height="113" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_9" x="4" y="4" width="17.076" height="17.076" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-164 -134)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 164, 134)">
+      <rect id="Rectangle_44-2" data-name="Rectangle 44" class="cls-1" width="70" height="105" rx="6" transform="translate(1)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 164, 134)">
+      <path id="Union_9-2" data-name="Union 9" class="cls-2" d="M8.993,10.718,5.539,7.265,2.085,10.718A1.221,1.221,0,0,1,.358,8.992L3.812,5.538.358,2.084A1.221,1.221,0,0,1,2.085.357L5.539,3.811,8.993.357a1.221,1.221,0,0,1,1.726,1.727L7.265,5.538l3.454,3.454a1.221,1.221,0,1,1-1.726,1.726Z" transform="translate(7 6)"/>
+    </g>
+  </g>
+</svg>
